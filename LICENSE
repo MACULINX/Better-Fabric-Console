@@ -1,7 +1,7 @@
 ================================================================================
  Better Fabric Console - Dual License
  Copyright (c) 2026 M. Bucci (MACULINX)
- https://github.com/MACULINX/better_fabric_console
+ https://github.com/MACULINX/Better-Fabric-Console
 ================================================================================
 
 This project uses a dual license depending on the component.
@@ -16,7 +16,7 @@ Any modified version or derivative work of the Fabric Mod component, whether
 distributed commercially or freely, must contain a prominent notice clearly
 identifying the original parent repository:
 
-    https://github.com/MACULINX/better_fabric_console
+    https://github.com/MACULINX/Better-Fabric-Console
 
 This notice must appear in the project README, documentation, and any public
 release page. It must not be removed or obscured in any redistribution.
@@ -63,7 +63,7 @@ furnished to do so, subject to the following conditions:
 
 2. Any modified version or derivative work of this Software must contain a
    prominent notice and link pointing to the original parent repository:
-       https://github.com/MACULINX/better_fabric_console
+       https://github.com/MACULINX/Better-Fabric-Console
    clearly identifying it as the parent/original codebase. This notice must
    appear in the project README, documentation, and any public release page.
 
