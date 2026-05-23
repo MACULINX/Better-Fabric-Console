@@ -14,7 +14,8 @@ import {
   LockIcon,
   KeyIcon,
   ShieldAlertIcon,
-  PowerIcon
+  PowerIcon,
+  LogoIcon
 } from './components/Icons';
 
 type TabType = 'dashboard' | 'console' | 'filters' | 'plugins';
@@ -405,7 +406,7 @@ function App() {
       <div className="auth-wrapper">
         <div className="auth-card">
           <div className="auth-logo">
-            <ServerIcon size={40} className="text-cyan animate-pulse" />
+            <LogoIcon size={48} className="animate-pulse" />
             <span className="auth-logo-text">Better Console</span>
           </div>
           <div className="loading-placeholder">
@@ -422,7 +423,7 @@ function App() {
       <div className="auth-wrapper">
         <div className="auth-card">
           <div className="auth-logo">
-            <ServerIcon size={40} className="text-cyan" />
+            <LogoIcon size={48} />
             <span className="auth-logo-text">Better Console</span>
           </div>
           <h2 className="auth-title">Setup Administrator</h2>
@@ -480,7 +481,7 @@ function App() {
       <div className="auth-wrapper">
         <div className="auth-card">
           <div className="auth-logo">
-            <ServerIcon size={40} className="text-cyan" />
+            <LogoIcon size={48} />
             <span className="auth-logo-text">Better Console</span>
           </div>
           <h2 className="auth-title">Dashboard Login</h2>
@@ -523,7 +524,7 @@ function App() {
       {/* Sidebar Navigation */}
       <aside className="app-sidebar">
         <div className="sidebar-logo">
-          <ServerIcon size={24} className="text-cyan animate-pulse" />
+          <LogoIcon size={28} className="animate-pulse" />
           <span className="logo-text">Better Console</span>
         </div>
 

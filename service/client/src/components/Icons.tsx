@@ -166,3 +166,91 @@ export const KeyIcon: React.FC<IconProps> = ({ size = 20, ...props }) => (
     <path d="M21 2l-2 2m-7.61 7.61a5.5 5.5 0 1 1-7.778 7.778 5.5 5.5 0 0 1 7.777-7.777zm0 0L15.5 7.5m0 0l3 3L22 7l-3-3m-3.5 3.5L19 4" />
   </svg>
 );
+
+export const LogoIcon: React.FC<IconProps> = ({ size = 20, ...props }) => (
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width={size} height={size} {...props}>
+    <defs>
+      <radialGradient id="bgGlow" cx="50%" cy="50%" r="70%">
+        <stop offset="0%" stop-color="#0a1428"/>
+        <stop offset="100%" stop-color="#050914"/>
+      </radialGradient>
+      <filter id="b" x="-20%" y="-20%" width="140%" height="140%">
+        <feGaussianBlur stdDeviation="3" result="blur"/>
+        <feMerge>
+          <feMergeNode in="blur"/>
+          <feMergeNode in="SourceGraphic"/>
+        </feMerge>
+      </filter>
+      <filter id="c" x="-30%" y="-30%" width="160%" height="160%">
+        <feGaussianBlur stdDeviation="2.5" result="blur"/>
+        <feMerge>
+          <feMergeNode in="blur"/>
+          <feMergeNode in="SourceGraphic"/>
+        </feMerge>
+      </filter>
+      <filter id="d" x="-40%" y="-40%" width="180%" height="180%">
+        <feGaussianBlur stdDeviation="5" result="blur"/>
+        <feMerge>
+          <feMergeNode in="blur"/>
+          <feMergeNode in="SourceGraphic"/>
+        </feMerge>
+      </filter>
+      <radialGradient id="a" cx="50%" cy="40%" r="60%">
+        <stop offset="0%" stop-color="#00f2fe22"/>
+        <stop offset="100%" stop-color="#060913" stop-opacity="0"/>
+      </radialGradient>
+    </defs>
+    <rect width="512" height="512" rx="64" fill="url(#bgGlow)"/>
+    <rect x="72" y="100" width="368" height="290" rx="14" fill="#0e1e36" stroke="#1e3a5f" stroke-width="2"/>
+    <rect x="72" y="100" width="368" height="290" rx="14" fill="url(#a)"/>
+    <rect x="72" y="100" width="368" height="290" rx="14" fill="none" stroke="#00f2fe" stroke-width="1.5" opacity=".7" filter="url(#b)"/>
+    <rect x="72" y="100" width="368" height="38" rx="14" fill="#0a1628"/>
+    <path fill="#0a1628" d="M72 124h368v14H72z"/>
+    <circle cx="104" cy="119" r="6" fill="#00f2fe" opacity=".9" filter="url(#c)"/>
+    <circle cx="124" cy="119" r="6" fill="#00f2fe" opacity=".5"/>
+    <circle cx="144" cy="119" r="6" fill="#00f2fe" opacity=".3"/>
+    <rect x="360" y="112" width="52" height="14" rx="7" fill="#10b981" opacity=".85" filter="url(#c)"/>
+    <rect x="86" y="138" width="340" height="238" rx="4" fill="#060d1a"/>
+    <rect x="102" y="158" width="180" height="5" rx="2.5" fill="#00f2fe" opacity=".8" filter="url(#c)"/>
+    <rect x="288" y="158" width="80" height="5" rx="2.5" fill="#10b981" opacity=".6"/>
+    <rect x="102" y="174" width="140" height="5" rx="2.5" fill="#00f2fe" opacity=".4"/>
+    <rect x="248" y="174" width="60" height="5" rx="2.5" fill="#00f2fe" opacity=".2"/>
+    <rect x="102" y="190" width="200" height="5" rx="2.5" fill="#00f2fe" opacity=".3"/>
+    <rect x="102" y="206" width="120" height="5" rx="2.5" fill="#1e3a5f" opacity=".9"/>
+    <rect x="228" y="206" width="90" height="5" rx="2.5" fill="#1e3a5f" opacity=".9"/>
+    <path stroke="#1e3a5f" opacity=".6" d="M102 222h308"/>
+    <g filter="url(#d)">
+      <rect x="196" y="244" width="16" height="16" rx="2" fill="#10b981" opacity=".95"/>
+      <rect x="216" y="244" width="16" height="16" rx="2" fill="#10b981" opacity=".7"/>
+      <rect x="236" y="244" width="16" height="16" rx="2" fill="#10b981" opacity=".95"/>
+      <rect x="196" y="264" width="16" height="16" rx="2" fill="#10b981" opacity=".6"/>
+      <rect x="216" y="264" width="16" height="16" rx="2" fill="#00f2fe" opacity=".9"/>
+      <rect x="236" y="264" width="16" height="16" rx="2" fill="#10b981" opacity=".6"/>
+      <rect x="196" y="284" width="16" height="16" rx="2" fill="#10b981" opacity=".95"/>
+      <rect x="216" y="284" width="16" height="16" rx="2" fill="#10b981" opacity=".7"/>
+      <rect x="236" y="284" width="16" height="16" rx="2" fill="#10b981" opacity=".95"/>
+    </g>
+    <g filter="url(#c)" stroke="#00f2fe" stroke-width="1.5" fill="none" opacity=".7">
+      <path d="M440 180h22l16-16"/>
+      <circle cx="478" cy="164" r="3" fill="#00f2fe"/>
+      <path d="M440 210h28"/>
+      <circle cx="468" cy="210" r="3" fill="#00f2fe"/>
+      <path d="M440 240h22l16 16"/>
+      <circle cx="478" cy="256" r="3" fill="#00f2fe"/>
+    </g>
+    <g filter="url(#c)" stroke="#00f2fe" stroke-width="1.5" fill="none" opacity=".4">
+      <path d="M72 185H54l-12-12"/>
+      <circle cx="42" cy="173" r="3" fill="#00f2fe"/>
+      <path d="M72 215H46"/>
+      <circle cx="46" cy="215" r="3" fill="#00f2fe"/>
+    </g>
+    <rect x="86" y="352" width="340" height="24" rx="0" fill="#0a1628" opacity=".8"/>
+    <circle cx="104" cy="364" r="5" fill="#10b981" filter="url(#c)"/>
+    <rect x="115" y="361" width="60" height="5" rx="2.5" fill="#10b981" opacity=".5"/>
+    <rect x="360" y="361" width="50" height="5" rx="2.5" fill="#00f2fe" opacity=".3"/>
+    <path fill="#0a1628" d="M86 376h340v24H86z"/>
+    <rect x="86" y="376" width="340" height="24" rx="0" fill="none" stroke="#1e3a5f"/>
+    <rect x="102" y="382" width="2" height="12" rx="1" fill="#00f2fe" opacity=".9" filter="url(#b)"/>
+    <rect x="108" y="385" width="80" height="5" rx="2.5" fill="#1e3a5f" opacity=".6"/>
+  </svg>
+);
