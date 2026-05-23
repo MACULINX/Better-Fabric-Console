@@ -1,0 +1,85 @@
+================================================================================
+ Better Fabric Console - Dual License
+ Copyright (c) 2026 M. Bucci (MACULINX)
+ https://github.com/MACULINX/better_fabric_console
+================================================================================
+
+This project uses a dual license depending on the component.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+ PART 1 — Fabric Mod (Java source code under /src)
+ License: GNU General Public License v3.0 with Parent Attribution Clause
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+PARENT ATTRIBUTION CLAUSE (additional requirement to GPL-3.0):
+Any modified version or derivative work of the Fabric Mod component, whether
+distributed commercially or freely, must contain a prominent notice clearly
+identifying the original parent repository:
+
+    https://github.com/MACULINX/better_fabric_console
+
+This notice must appear in the project README, documentation, and any public
+release page. It must not be removed or obscured in any redistribution.
+
+---
+
+GNU GENERAL PUBLIC LICENSE
+Version 3, 29 June 2007
+
+Copyright (C) 2007 Free Software Foundation, Inc. <https://fsf.org/>
+Everyone is permitted to copy and distribute verbatim copies of this license
+document, but changing it is not allowed.
+
+This program is free software: you can redistribute it and/or modify it under
+the terms of the GNU General Public License as published by the Free Software
+Foundation, either version 3 of the License, or (at your option) any later
+version.
+
+This program is distributed in the hope that it will be useful, but WITHOUT
+ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License along with
+this program. If not, see <https://www.gnu.org/licenses/>.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+ PART 2 — Web Service and Frontend (Node.js/TypeScript/React under /service)
+ License: MIT License with Parent Attribution Clause
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+MIT License with Parent Attribution
+
+Copyright (c) 2026 M. Bucci (MACULINX)
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+1. The above copyright notice and this permission notice shall be included in
+   all copies or substantial portions of the Software.
+
+2. Any modified version or derivative work of this Software must contain a
+   prominent notice and link pointing to the original parent repository:
+       https://github.com/MACULINX/better_fabric_console
+   clearly identifying it as the parent/original codebase. This notice must
+   appear in the project README, documentation, and any public release page.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+ THIRD-PARTY NOTICES
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+This project optionally integrates with spark (https://spark.lucko.me/),
+which is licensed under GPL-3.0-only. spark is not bundled in this
+distribution and must be installed separately on the Minecraft server.
+spark is a third-party project and remains subject to its own license.
