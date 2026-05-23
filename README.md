@@ -134,5 +134,5 @@ Any fork or derivative must include a visible link back to this repository:
 
 <div align="center">
 Made with ☕ by <a href="https://github.com/MACULINX">MACULINX</a> —
-<a href="https://github.com/MACULINX/better_fabric_console">better_fabric_console</a>
+<a href="https://github.com/MACULINX/Better-Fabric-Console">Better Fabric Console</a>
 </div>
