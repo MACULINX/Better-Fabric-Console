@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "better_fabric_console",
+  "version": "${version}",
+  "name": "Better Fabric Console",
+  "description": "Exposes real-time console logs and Spark server performance metrics to a co-located Web UI interface.",
+  "authors": [
+    "mbucci"
+  ],
+  "contact": {
+    "homepage": "https://github.com/mbucci/better-fabric-console"
+  },
+  "license": "MIT",
+  "icon": "assets/better_fabric_console/icon.png",
+  "environment": "server",
+  "entrypoints": {
+    "server": [
+      "com.mbucci.betterfabricconsole.BetterFabricConsoleMod"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "minecraft": "26.1.2",
+    "fabric-api": "*"
+  }
+}

@@ -1,0 +1,226 @@
+[
+  {
+    "timestamp": 1779560481452,
+    "level": "INFO",
+    "message": "Starting Minecraft server on *:25565",
+    "logger": "net.minecraft.server.dedicated.DedicatedServer",
+    "id": "946e1628-1dec-461f-8ac5-e0f781b0c0a8"
+  },
+  {
+    "timestamp": 1779560481532,
+    "level": "WARN",
+    "message": "**** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!",
+    "logger": "net.minecraft.server.dedicated.DedicatedServer",
+    "id": "524b40f5-abc5-4a14-add3-7d6742b92b0e"
+  },
+  {
+    "timestamp": 1779560481532,
+    "level": "WARN",
+    "message": "The server will make no attempt to authenticate usernames. Beware.",
+    "logger": "net.minecraft.server.dedicated.DedicatedServer",
+    "id": "34bb911d-2603-4c6c-89c5-8478f5d713b3"
+  },
+  {
+    "timestamp": 1779560481533,
+    "level": "WARN",
+    "message": "While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.",
+    "logger": "net.minecraft.server.dedicated.DedicatedServer",
+    "id": "c64149ca-8ce7-40b9-a75f-7d1b23c9011e"
+  },
+  {
+    "timestamp": 1779560481533,
+    "level": "WARN",
+    "message": "To change this, set \"online-mode\" to \"true\" in the server.properties file.",
+    "logger": "net.minecraft.server.dedicated.DedicatedServer",
+    "id": "98be116f-fadb-4b76-993f-6d8d417c377e"
+  },
+  {
+    "timestamp": 1779560481541,
+    "level": "INFO",
+    "message": "Preparing level \"world\"",
+    "logger": "net.minecraft.server.dedicated.DedicatedServer",
+    "id": "0c755e4c-3f7e-4f08-9a0f-37a8220288e3"
+  },
+  {
+    "timestamp": 1779560481569,
+    "level": "INFO",
+    "message": "Enforcing safe world random access",
+    "logger": "CheckedThreadLocalRandom",
+    "id": "40ccd8e3-a03f-4b4e-b8f4-7e817938205a"
+  },
+  {
+    "timestamp": 1779560481974,
+    "level": "INFO",
+    "message": "[STDOUT]: Density function compilation finished in 201.4 ms",
+    "logger": "net.minecraft.server.LoggedPrintStream",
+    "id": "691c19b2-0321-4b14-b218-da0ea95cec2c"
+  },
+  {
+    "timestamp": 1779560481987,
+    "level": "INFO",
+    "message": "[STDOUT]: [ScalableLux] Lighting scaling is enabled in externally managed mode",
+    "logger": "net.minecraft.server.LoggedPrintStream",
+    "id": "c660b03d-2be8-41b6-a720-d9fad01bfc66"
+  },
+  {
+    "timestamp": 1779560482017,
+    "level": "INFO",
+    "message": "Changing watch distance to 8",
+    "logger": "net.minecraft.server.level.ChunkMap",
+    "id": "0ef90a47-20ee-4047-832a-14e14ec7d6ba"
+  },
+  {
+    "timestamp": 1779560482026,
+    "level": "INFO",
+    "message": "Using TheSpeedyObjectFactory without Unsafe",
+    "logger": "TheSpeedyObjectFactory",
+    "id": "4e6bddc3-424c-40ae-9a19-0f58ce203832"
+  },
+  {
+    "timestamp": 1779560482099,
+    "level": "INFO",
+    "message": "[STDOUT]: Density function compilation finished in 4.216 ms",
+    "logger": "net.minecraft.server.LoggedPrintStream",
+    "id": "c794ce57-ef72-43be-b9a6-af3b612207b8"
+  },
+  {
+    "timestamp": 1779560482103,
+    "level": "INFO",
+    "message": "Changing watch distance to 8",
+    "logger": "net.minecraft.server.level.ChunkMap",
+    "id": "024a2c1a-e921-4fcf-a90b-6e3ab28f454c"
+  },
+  {
+    "timestamp": 1779560482145,
+    "level": "INFO",
+    "message": "[STDOUT]: Density function compilation finished in 7.205 ms",
+    "logger": "net.minecraft.server.LoggedPrintStream",
+    "id": "63dd3641-faae-422b-9d17-0e4d130f8181"
+  },
+  {
+    "timestamp": 1779560482149,
+    "level": "INFO",
+    "message": "Changing watch distance to 8",
+    "logger": "net.minecraft.server.level.ChunkMap",
+    "id": "103526f0-ab2c-49ae-b0df-b2a0bf068bf4"
+  },
+  {
+    "timestamp": 1779560482183,
+    "level": "INFO",
+    "message": "Loading 0 persistent chunks...",
+    "logger": "net.minecraft.server.level.progress.LoggingLevelLoadListener",
+    "id": "80f5beb4-e427-4a3f-804d-76cacaadbd54"
+  },
+  {
+    "timestamp": 1779560482183,
+    "level": "INFO",
+    "message": "Preparing spawn area: 100%",
+    "logger": "net.minecraft.server.level.progress.LoggingLevelLoadListener",
+    "id": "ce427e09-33e8-4fb2-b52c-c521d160da21"
+  },
+  {
+    "timestamp": 1779560482194,
+    "level": "INFO",
+    "message": "Time elapsed: 12 ms",
+    "logger": "net.minecraft.server.level.progress.LoggingLevelLoadListener",
+    "id": "b22485ed-74a8-4876-91a1-89ce5a36776e"
+  },
+  {
+    "timestamp": 1779560482201,
+    "level": "INFO",
+    "message": "Done (0.653s)! For help, type \"help\"",
+    "logger": "net.minecraft.server.dedicated.DedicatedServer",
+    "id": "821aebaf-ea4e-4d10-ae75-6c021942c43a"
+  },
+  {
+    "timestamp": 1779560482201,
+    "level": "INFO",
+    "message": "Starting remote control listener",
+    "logger": "net.minecraft.server.dedicated.DedicatedServer",
+    "id": "7ea61d52-ce14-4c79-961d-4c3865e7bd3e"
+  },
+  {
+    "timestamp": 1779560482204,
+    "level": "INFO",
+    "message": "Thread RCON Listener started",
+    "logger": "net.minecraft.server.rcon.thread.GenericThread",
+    "id": "e7456f05-6727-44fa-89ee-184a506a5413"
+  },
+  {
+    "timestamp": 1779560482204,
+    "level": "INFO",
+    "message": "RCON running on 0.0.0.0:25575",
+    "logger": "net.minecraft.server.rcon.thread.RconThread",
+    "id": "65264095-c437-4dd6-b220-4de008763cf5"
+  },
+  {
+    "timestamp": 1779560482207,
+    "level": "INFO",
+    "message": "Saving chunks for level 'ServerLevel[world]'/minecraft:overworld",
+    "logger": "net.minecraft.server.MinecraftServer",
+    "id": "b3871324-8f63-4b44-92b5-60c911dffd64"
+  },
+  {
+    "timestamp": 1779560482228,
+    "level": "INFO",
+    "message": "Saving chunks for level 'ServerLevel[world]'/minecraft:the_end",
+    "logger": "net.minecraft.server.MinecraftServer",
+    "id": "135eef54-b1b2-4f02-8612-317331f3a0fe"
+  },
+  {
+    "timestamp": 1779560482243,
+    "level": "INFO",
+    "message": "Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether",
+    "logger": "net.minecraft.server.MinecraftServer",
+    "id": "27c21519-b9d6-4693-8132-34da03f1c61f"
+  },
+  {
+    "timestamp": 1779560482282,
+    "level": "INFO",
+    "message": "ThreadedAnvilChunkStorage (world): All chunks are saved",
+    "logger": "net.minecraft.server.MinecraftServer",
+    "id": "e5b8b5d6-bb8b-4d3b-bddc-06d500dd623c"
+  },
+  {
+    "timestamp": 1779560482282,
+    "level": "INFO",
+    "message": "ThreadedAnvilChunkStorage (DIM1): All chunks are saved",
+    "logger": "net.minecraft.server.MinecraftServer",
+    "id": "adae0593-e534-4079-8860-1a4f14d3d7be"
+  },
+  {
+    "timestamp": 1779560482283,
+    "level": "INFO",
+    "message": "ThreadedAnvilChunkStorage (DIM-1): All chunks are saved",
+    "logger": "net.minecraft.server.MinecraftServer",
+    "id": "f47688e2-17ea-48f7-ae05-75c1023e91d5"
+  },
+  {
+    "timestamp": 1779560482284,
+    "level": "INFO",
+    "message": "ThreadedAnvilChunkStorage: All dimensions are saved",
+    "logger": "net.minecraft.server.MinecraftServer",
+    "id": "b8fc02a4-0883-4ef9-868a-7b9052d08e2f"
+  },
+  {
+    "timestamp": 1779560482286,
+    "level": "WARN",
+    "message": "Dedicated server took 9.258 seconds to load",
+    "logger": "ModernFix",
+    "id": "20d0618b-2042-4e50-8a10-37d5cdf3c9b7"
+  },
+  {
+    "timestamp": 1779560542240,
+    "level": "INFO",
+    "message": "Server empty for 60 seconds, pausing",
+    "logger": "net.minecraft.server.MinecraftServer",
+    "id": "26627543-082a-4a38-a8c3-403a254a3d34"
+  },
+  {
+    "timestamp": 1779560544690,
+    "level": "INFO",
+    "message": "Stopping the server",
+    "logger": "net.minecraft.server.MinecraftServer",
+    "id": "9b9df89a-06f2-4b8e-8402-5e1923117fcc"
+  }
+]

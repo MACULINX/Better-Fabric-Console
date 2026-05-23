@@ -1,0 +1,31 @@
+{
+  "serverName": "Minecraft Server Mod",
+  "hostPort": 8000,
+  "plugins": {
+    "sparkEnabled": true,
+    "consoleEnabled": true,
+    "sparkInstalled": false
+  },
+  "filters": [
+    {
+      "id": "1",
+      "pattern": "User Authenticator",
+      "type": "exclude",
+      "active": false
+    },
+    {
+      "id": "2",
+      "pattern": "issued server command",
+      "type": "highlight",
+      "highlightColor": "#00f2fe",
+      "active": true
+    },
+    {
+      "id": "3",
+      "pattern": "warn|error|fail",
+      "type": "highlight",
+      "highlightColor": "#f43f5e",
+      "active": true
+    }
+  ]
+}

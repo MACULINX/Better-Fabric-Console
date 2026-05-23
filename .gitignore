@@ -1,0 +1,39 @@
+# Gradle
+.gradle/
+build/
+out/
+
+# Java compile outputs
+*.class
+*.war
+*.ear
+*.jar
+!libs/*.jar
+
+# IDEs
+.idea/
+*.iml
+*.ipr
+*.iws
+.project
+.classpath
+.settings/
+.vscode/
+
+# Node / Frontend
+node_modules/
+service/node_modules/
+service/client/node_modules/
+dist/
+service/dist/
+service/client/dist/
+.npm
+/service/client/dist/
+
+# OS/Logs
+.DS_Store
+*.log
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local

@@ -1,0 +1,77 @@
+plugins {
+    id 'net.fabricmc.fabric-loom' version '1.15.5'
+    id 'maven-publish'
+}
+
+version = project.mod_version
+group = project.maven_group
+
+base {
+    archivesName = project.archives_base_name
+}
+
+repositories {
+    mavenCentral()
+    maven { url = "https://maven.fabricmc.net/" }
+    maven { url = "https://libraries.minecraft.net/" }
+    maven { url = "https://maven.lucko.me/" }
+}
+
+dependencies {
+    minecraft "com.mojang:minecraft:${project.minecraft_version}"
+    implementation "net.fabricmc:fabric-loader:${project.loader_version}"
+    implementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"
+    
+    // Spark API for compile-time references from local jar
+    compileOnly files("libs/spark-1.10.172-fabric.jar")
+}
+
+processResources {
+    inputs.property "version", project.version
+
+    filesMatching("fabric.mod.json") {
+        expand "version": project.version
+    }
+}
+
+task buildFrontend(type: Exec) {
+    workingDir "service"
+    if (System.getProperty('os.name').toLowerCase().contains('windows')) {
+        commandLine 'cmd', '/c', 'npm run build:frontend'
+    } else {
+        commandLine 'npm', 'run', 'build:frontend'
+    }
+}
+
+task copyFrontendAssets(type: Copy) {
+    dependsOn buildFrontend
+    from "service/dist/public"
+    into "src/main/resources/web"
+}
+
+processResources.dependsOn copyFrontendAssets
+afterEvaluate {
+    if (tasks.findByName('sourcesJar') != null) {
+        sourcesJar.dependsOn copyFrontendAssets
+    }
+}
+
+tasks.withType(JavaCompile).configureEach {
+    it.options.release = 25
+}
+
+java {
+    withSourcesJar()
+    sourceCompatibility = JavaVersion.VERSION_25
+    targetCompatibility = JavaVersion.VERSION_25
+    
+    toolchain {
+        languageVersion = JavaLanguageVersion.of(25)
+    }
+}
+
+jar {
+    from("LICENSE") {
+        rename { "${it}_${project.base.archivesName.get()}"}
+    }
+}

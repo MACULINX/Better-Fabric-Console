@@ -1,0 +1,37 @@
+{
+  "name": "better-fabric-console-service",
+  "version": "1.0.0",
+  "description": "Companion Web Service and UI for Better Fabric Console Minecraft Mod",
+  "main": "dist/server.js",
+  "type": "module",
+  "scripts": {
+    "build:backend": "tsc",
+    "build:frontend": "npm run --prefix client build",
+    "build": "npm run build:frontend && npm run build:backend",
+    "start": "node dist/server.js",
+    "dev:backend": "tsx watch src/server.ts",
+    "dev:frontend": "npm run --prefix client dev",
+    "dev": "concurrently \"npm run dev:backend\" \"npm run dev:frontend\""
+  },
+  "keywords": [
+    "minecraft",
+    "fabric",
+    "console",
+    "metrics",
+    "spark"
+  ],
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "ws": "^8.17.0"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.17",
+    "@types/express": "^4.17.21",
+    "@types/node": "^20.12.12",
+    "@types/ws": "^8.5.10",
+    "concurrently": "^8.2.2",
+    "tsx": "^4.10.5",
+    "typescript": "^5.4.5"
+  }
+}
