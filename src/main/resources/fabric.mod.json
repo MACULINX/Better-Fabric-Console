@@ -8,9 +8,9 @@
     "mbucci"
   ],
   "contact": {
-    "homepage": "https://github.com/mbucci/better-fabric-console"
+    "homepage": "https://github.com/MACULINX/better_fabric_console"
   },
-  "license": "MIT",
+  "license": "GPL-3.0-only",
   "icon": "assets/better_fabric_console/icon.png",
   "environment": "server",
   "entrypoints": {
