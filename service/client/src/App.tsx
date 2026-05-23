@@ -619,7 +619,7 @@ function App() {
             <span>{serverName}</span>
           </div>
           <div className="header-meta">
-            <span className="header-badge">MC 1.26.2</span>
+            <span className="header-badge">MC 26.1.2</span>
           </div>
         </header>
 

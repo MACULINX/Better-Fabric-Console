@@ -67,7 +67,7 @@ export const Dashboard: React.FC<DashboardProps> = ({
         <ServerIcon size={40} className="text-cyan animate-pulse" />
         <div className="hero-text">
           <h3>{serverName}</h3>
-          <p className="subtitle">Fabric Server 1.26.2 • Active Companion Web Service</p>
+          <p className="subtitle">Fabric Server 26.1.2 • Active Companion Web Service</p>
         </div>
       </div>
 
